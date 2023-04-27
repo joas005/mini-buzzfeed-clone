@@ -1,0 +1,23 @@
+<section class="quizz container">
+	<figure class="quizzLogo">
+		<img src="assets/images/logo.png" alt="logo" />
+		<h3>{{ title }}</h3>
+	</figure>
+
+	<main *ngIf="notFinished; else finishedBlock">
+		<section class="questions">
+			<h3>{{ selectedQuestion.question }}</h3>
+		</section>
+
+		<div class="options">
+			<button class="btn-option">Opção</button>
+		</div>
+	</main>
+
+	<ng-template #finishedBlock >
+		<div class="quizzResults">
+			<h1>Seu resultado é:</h1>
+			<p>Resposta selecionada</p>
+		</div>
+	</ng-template>
+</section>
