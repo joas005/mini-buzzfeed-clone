@@ -1,6 +1,6 @@
 <section class="quizz container">
 	<figure class="quizzLogo">
-		<img src="assets/images/logo.png" alt="logo" />
+		<a href="index.html"><img src="assets/images/logo.png" alt="logo" /></a>
 		<h3>{{ title }}</h3>
 	</figure>
 
@@ -21,9 +21,15 @@
 	<ng-template #finishedBlock >
 		<div class="quizzResults container">
 			<h1>Seu resultado é:</h1>
-			<p>{{selectedAwser[0]}}</p>
+			<p class="selectedAwser">{{selectedAwser[0]}}</p>
 			<img class="selectedAwserImage" src="{{selectedAwser[1]}}" alt="Selected awser image">
-			<p></p>
+			<p class="selectedAwserDescription">{{selectedAwser[2]}}</p>
+			<div class="buttonWrapper">
+				<app-btn btnText="Jogar denovo!"/>
+			</div>
 		</div>
 	</ng-template>
 </section>
+<footer class="container">
+    <app-footer />
+</footer>
