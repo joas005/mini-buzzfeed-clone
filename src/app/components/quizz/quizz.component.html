@@ -10,14 +10,20 @@
 		</section>
 
 		<div class="options">
-			<button class="btn-option">Opção</button>
+			<button class="btn-option" 
+			(click)="chosenOption(option.alias)" 
+			*ngFor="let option of selectedQuestion.options; let i = index">
+			{{option.name}}
+		</button>
 		</div>
 	</main>
 
 	<ng-template #finishedBlock >
-		<div class="quizzResults">
+		<div class="quizzResults container">
 			<h1>Seu resultado é:</h1>
-			<p>Resposta selecionada</p>
+			<p>{{selectedAwser[0]}}</p>
+			<img class="selectedAwserImage" src="{{selectedAwser[1]}}" alt="Selected awser image">
+			<p></p>
 		</div>
 	</ng-template>
 </section>
