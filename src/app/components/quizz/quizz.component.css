@@ -101,10 +101,6 @@ main {
 .quizzResults {
 	width: 90%;
 	height: auto;
-<<<<<<< HEAD
-	max-height: 28rem;
-=======
->>>>>>> 8454b77d735f55afb8bb70c7ff007424324a4ad5
 	background-color: var(--clr-lightPurple);
 	display: flex;
 	justify-content: start;
@@ -112,15 +108,9 @@ main {
 	flex-direction: column;
 	border-radius: 10px;
 	padding-top: 1rem;
-<<<<<<< HEAD
 	padding-left: 1rem;
-=======
 	padding-bottom: 1rem;
-<<<<<<< HEAD
 	margin-bottom: 8rem;
-=======
->>>>>>> 8454b77d735f55afb8bb70c7ff007424324a4ad5
->>>>>>> 3e199f1aa4b714e6ea5de312185a2e0fb71d777b
 }
 
 .quizzResults h1 {
