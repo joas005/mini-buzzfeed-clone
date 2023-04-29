@@ -11,11 +11,11 @@ footer a{
     color: var(--clr-rose);
     cursor: pointer;
     text-decoration: underline;
-    transition: color 0.2s;
+    transition: color 0.3s;
 }
 
 a:hover{
-    color: rgb(168, 42, 67);
+    color: rgb(192, 17, 52);
 }
 
 footer div {
