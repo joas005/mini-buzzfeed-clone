@@ -1,0 +1,82 @@
+{
+	"title": "Você seria um heroí ou vilão?",
+	"questions": [
+		{
+			"id": 1,
+			"question": "Qual super poder você escolheria?",
+			"options": [
+				{ "id": 1, "name": "Raios-Lasers", "alias": "A" },
+				{ "id": 2, "name": "Voar", "alias": "B" },
+				{ "id": 3, "name": "Explodir coisas", "alias": "A" },
+				{ "id": 4, "name": "Curar feridas", "alias": "B" },
+				{ "id": 5, "name": "Soltar fogo pelas mãos", "alias": "A" }
+			]
+		},
+		{
+			"id": 2,
+			"question": "Quem você salvaria primeiro?",
+			"options": [
+				{ "id": 1, "name": "Crianças", "alias": "A" },
+				{ "id": 2, "name": "Idosos", "alias": "A" },
+				{ "id": 3, "name": "Não saberia escolher", "alias": "B" }
+			]
+		},
+		{
+			"id": 3,
+			"question": "Qual a sua maior preocupação ao enfretar outro super ser?",
+			"options": [
+				{ "id": 1, "name": "Não destruir prédios", "alias": "B" },
+				{ "id": 2, "name": "Socar a cara do inimigo", "alias": "A" },
+				{ "id": 3, "name": "Não sujar meu traje", "alias": "A" },
+				{ "id": 4, "name": "Não deixar ninguém se ferir", "alias": "B" }
+			]
+		},
+		{
+			"id": 4,
+			"question": "Qual o seu maior foco?",
+			"options": [
+				{ "id": 1, "name": "Ficar rico com poderes", "alias": "A" },
+				{ "id": 2, "name": "Salvar a cidade", "alias": "B" },
+				{ "id": 3, "name": "Não deixar vilões reinarem!", "alias": "B" },
+				{ "id": 4, "name": "Distribuir caos ao mundo", "alias": "A" }
+			]
+		},
+		{
+			"id": 5,
+			"question": "Qual o seu apelido de super ser?",
+			"options": [
+				{ "id": 1, "name": "O Terrivel", "alias": "A" },
+				{ "id": 2, "name": "Amigo da vizinhança", "alias": "B" },
+				{ "id": 3, "name": "Sombra da noite", "alias": "B" },
+				{ "id": 4, "name": "Justiçeiro", "alias": "B" },
+				{ "id": 5, "name": "Destruídor de mundos!", "alias": "A" }
+			]
+		},
+		{
+			"id": 6,
+			"question": "Você se estressa com facilidade?",
+			"options": [
+				{ "id": 1, "name": "Com certeza!", "alias": "A" },
+				{ "id": 2, "name": "As vezes...", "alias": "A" },
+				{ "id": 3, "name": "Nem tanto", "alias": "B" }
+			]
+		}
+	],
+	"results": {
+		"A": [
+			"Você muito provavelmente seria um super vilão!",
+			"https://blog.atacadocollections.com/wp-content/uploads/2020/05/viloes-novo.jpg",
+			"Existem muitos exemplos de vilões fictícios que são adorados pelos fãs, como Darth Vader, Coringa e Thanos. Eles são personagens complexos com motivações e personalidades únicas, o que os torna fascinantes de assistir ou ler. Lembre-se de que a ficção é uma ótima maneira de expressar nossos desejos e emoções mais sombrios de uma forma segura e controlada. Então, se você é um super vilão em potencial, abrace isso e divirta-se com isso!"
+		],
+		"B": [
+			"Você muito provavelmente seria um super herói!",
+			"https://t.ctcdn.com.br/EPpIgTS6uDq-azK03FgafVrkMQc=/512x288/smart/filters:format(webp)/i677638.jpeg",
+			"Isso é incrível! Ser um super herói significa ter habilidades extraordinárias e usar essas habilidades para fazer o bem e ajudar aqueles que precisam. Você seria um verdadeiro defensor da justiça e da igualdade. Ser um super herói não é apenas sobre ter habilidades sobrenaturais, é também sobre ter um coração grande e estar disposto a ajudar os outros. Você é uma pessoa empática e compassiva, que está sempre disposta a ajudar aqueles que estão em dificuldades."
+		],
+		"C": [
+			"Você seria um anti-heroí!",
+			"https://segredosdomundo.r7.com/wp-content/uploads/2020/08/anti-heroi-como-os-personagens-se-diferenciam-dos-viloes.jpeg",
+			"Isso significa que você não se encaixa perfeitamente na definição tradicional de herói ou vilão. Você tem suas próprias regras e motivações, e está disposto a fazer o que for preciso para alcançar seus objetivos. Os anti-heróis são personagens complexos e fascinantes, com habilidades únicas e personalidades distintas. Eles são geralmente motivados por uma causa ou objetivo pessoal, e não necessariamente pela justiça ou pelo bem maior."
+		]
+	}
+}
