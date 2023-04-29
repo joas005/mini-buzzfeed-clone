@@ -4,8 +4,6 @@
   --clr-lightGrey: #faebd7;
   --clr-light:#fffdff;
   --clr-green:#379454;
-  --clr-green:rgb(55, 148, 84);
-
 
   /* Sizes */
   --size-xxs: 0.5rem;
@@ -71,11 +69,9 @@ strong {
 }
 
 .container {
-  width: 99%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 /* XS */

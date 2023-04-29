@@ -6,7 +6,7 @@ footer {
 	position: absolute;
 	padding-top: 10px;
 	padding-bottom: 10px;
-    bottom: 0;
+    bottom: 0px;
 	right: 0;
 }
 
@@ -14,12 +14,11 @@ footer a{
     color: crimson;
     cursor: pointer;
     text-decoration: underline;
-    transition: translateY 0.2s;
+    transition: color 0.3s;
 }
 
 a:hover{
-    color: rgb(184, 5, 41);
-    transform: translateY(-2px);
+    color: rgb(192, 17, 52);
 }
 
 footer div {
