@@ -1,10 +1,14 @@
 .quizz {
 	position: relative;
+<<<<<<< HEAD
 	margin: 0 auto;
 }
 
 main {
 	margin: 0 auto;
+=======
+	height: 100%;
+>>>>>>> 8454b77d735f55afb8bb70c7ff007424324a4ad5
 }
 
 .quizzLogo {
@@ -20,6 +24,8 @@ main {
 	height: 2.75rem;
 	width: 15rem;
 	margin-bottom: 10px;
+	cursor: pointer;
+	transition: scale 0.3s translateY 0.3s;
 }
 
 .quizzLogo h3 {
@@ -69,7 +75,8 @@ main {
 	text-align: center;
 	padding: 0;
 	max-width: 20rem;
-	height: 2rem;
+	min-height: 2rem;
+	height: auto;
 	cursor: pointer;
 	box-shadow: 0 8px 15px rgba(55, 148, 84, 0.1), 0 4px 4px rgba(55, 148, 84, 0.2), 0 0 80px -12px var(--clr-green);
 	transition: transform 0.3s, box-shadow 0.3s, background-color 0.5s, top 0.3s;
@@ -90,7 +97,10 @@ main {
 .quizzResults {
 	width: 90%;
 	height: auto;
+<<<<<<< HEAD
 	max-height: 28rem;
+=======
+>>>>>>> 8454b77d735f55afb8bb70c7ff007424324a4ad5
 	background-color: var(--clr-lightPurple);
 	display: flex;
 	justify-content: start;
@@ -98,7 +108,11 @@ main {
 	flex-direction: column;
 	border-radius: 10px;
 	padding-top: 1rem;
+<<<<<<< HEAD
 	padding-left: 1rem;
+=======
+	padding-bottom: 1rem;
+>>>>>>> 8454b77d735f55afb8bb70c7ff007424324a4ad5
 }
 
 .quizzResults h1 {
@@ -109,7 +123,7 @@ main {
 	margin-bottom: 1rem;
 }
 
-.quizzResults p {
+.selectedAwser {
 	color: var(--clr-lightGrey);
 	font-size: var(--size-l);
 	letter-spacing: 0.05em;
@@ -123,6 +137,26 @@ main {
 	width: 90%;
 	margin: 0 auto;
 	max-width: 38rem;
+}
+
+.selectedAwserDescription {
+	align-self: flex-start;
+	color: var(--clr-lightGrey);
+	font-size: var(--size-s);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	text-align: left;
+	text-indent: 3%;
+}
+
+.buttonWrapper {
+	display: block;
+	margin: 0 auto;
+}
+
+.quizzLogo img:hover {
+	transform: translateY(-2px);
+	transform: scale(1.05);
 }
 
 /* XS */
@@ -144,7 +178,11 @@ main {
 		font-size: var(--size-3xl);
 	}
 
-	.quizzResults p {
+	.selectedAwserDescription {
+		font-size: var(--size-base);
+	}
+
+	.selectedAwser {
 		font-size: var(--size-xl);
 	}
 }
@@ -177,8 +215,12 @@ main {
 		font-size: var(--size-4xl);
 	}
 
-	.quizzResults p {
+	.selectedAwser {
 		font-size: var(--size-2xl);
+	}
+
+	.selectedAwserDescription {
+		font-size: var(--size-l);
 	}
 
 	.quizzResults {
@@ -216,7 +258,11 @@ main {
 		font-size: var(--size-5xl);
 	}
 
-	.quizzResults p {
+	.selectedAwser {
 		font-size: var(--size-3xl);
+	}
+
+	.selectedAwserDescription {
+		font-size: var(--size-xl);
 	}
 }
