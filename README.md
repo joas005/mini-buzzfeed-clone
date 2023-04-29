@@ -1,5 +1,30 @@
 # MiniBuzzfeedClone
 
+## Último projeto do bootcamp Angular da plataforma DIO!
+
+Este pequeno site consiste em uma versão mini de um quiz da plataforma de entreterimento Buzzfeed! 
+Conta com html e css responisivo assim como componentes 100% dinâmicos na atualização com relação ao tema do quiz, as perguntas, as opções e os resultados.
+Sendo necessário apenas atualizar as informções presentes no banco de dados!
+
+## Status - 
+ - O projeto está completo!
+ - Possíveis justes futuros: 
+ 	1. Adcionar mais de  uma opção de quiz.
+	2. Criar uma paginação de rotas para diferentes quizes.
+
+
+## <em>Padrão Angular</em>
+
+This little site consists of a mini version of a quiz from the entertainment platform Buzzfeed!
+It has responsible html and css as well as 100% dynamic components in the update regarding the quiz theme, questions, options and results.
+It is only necessary to update the information in the database!
+
+## Status -
+- The project is complete!
+- Possible future features:
+	1. Add more than one quiz option.
+	2. Create a route pagination for different quizzes.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
 ## Development server
