@@ -4,32 +4,35 @@
 		<h3>{{ title }}</h3>
 	</figure>
 
-	<main *ngIf="notFinished; else finishedBlock">
+	<div *ngIf="notFinished; else finishedBlock">
 		<section class="questions">
 			<h3>{{ selectedQuestion.question }}</h3>
 		</section>
 
 		<div class="options">
-			<button class="btn-option" 
-			(click)="chosenOption(option.alias)" 
-			*ngFor="let option of selectedQuestion.options; let i = index">
-			{{option.name}}
-		</button>
+			<button
+				class="btn-option"
+				(click)="chosenOption(option.alias)"
+				*ngFor="let option of selectedQuestion.options; let i = index"
+			>
+				{{ option.name }}
+			</button>
 		</div>
-	</main>
+	</div>
 
-	<ng-template #finishedBlock >
+	<ng-template #finishedBlock>
 		<div class="quizzResults container">
 			<h1>Seu resultado é:</h1>
-			<p class="selectedAwser">{{selectedAwser[0]}}</p>
-			<img class="selectedAwserImage" src="{{selectedAwser[1]}}" alt="Selected awser image">
-			<p class="selectedAwserDescription">{{selectedAwser[2]}}</p>
+			<p class="selectedAwser">{{ selectedAwser[0] }}</p>
+			<img
+				class="selectedAwserImage"
+				src="{{ selectedAwser[1] }}"
+				alt="Selected awser image"
+			/>
+			<p class="selectedAwserDescription">{{ selectedAwser[2] }}</p>
 			<div class="buttonWrapper">
-				<app-btn btnText="Jogar denovo!"/>
+				<app-btn btnText="Jogar denovo!" />
 			</div>
 		</div>
 	</ng-template>
 </section>
-<footer class="container">
-    <app-footer />
-</footer>

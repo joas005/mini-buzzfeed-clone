@@ -1,6 +1,6 @@
 .quizz {
+	min-height: 90vh;
 	position: relative;
-	height: 100%;
 }
 
 .quizzLogo {
@@ -97,6 +97,7 @@
 	border-radius: 10px;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+	margin-bottom: 8rem;
 }
 
 .quizzResults h1 {
